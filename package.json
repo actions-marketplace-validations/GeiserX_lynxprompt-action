@@ -27,11 +27,11 @@
   "dependencies": {
     "@actions/core": "^1.11.1",
     "@actions/github": "^6.0.0",
-    "@actions/glob": "^0.6.1"
+    "@actions/glob": "^0.7.0"
   },
   "devDependencies": {
-    "@types/node": "^20.19.39",
-    "@vercel/ncc": "^0.38.3",
+    "@types/node": "^20.19.43",
+    "@vercel/ncc": "^0.44.0",
     "typescript": "^5.7.0"
   }
 }
