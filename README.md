@@ -2,6 +2,9 @@
   <img src="docs/images/banner.svg" alt="LynxPrompt Action banner" width="900"/>
 </p>
 
+[![CI](https://github.com/GeiserX/lynxprompt-action/actions/workflows/ci.yml/badge.svg)](https://github.com/GeiserX/lynxprompt-action/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/GeiserX/lynxprompt-action/graph/badge.svg)](https://codecov.io/gh/GeiserX/lynxprompt-action)
+
 # LynxPrompt Action
 
 A GitHub Action to sync, validate, generate, and diff AI IDE configuration files with [LynxPrompt](https://lynxprompt.com) -- a self-hostable platform for managing AI coding tool configs across 30+ tools.
@@ -259,6 +262,17 @@ npm run build
 ```
 
 The compiled bundle is output to `dist/index.js`. This file must be committed to the repository for the action to work.
+
+
+## Related Projects
+
+| Project | Description |
+|---------|-------------|
+| [LynxPrompt](https://github.com/GeiserX/LynxPrompt) | Self-hosted platform for AI IDE/Tools Rules and Commands via WebUI and CLI |
+| [lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | VS Code extension for LynxPrompt AI configuration file management |
+| [lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | MCP Server for LynxPrompt AI configuration blueprint management |
+| [n8n-nodes-lynxprompt](https://github.com/GeiserX/n8n-nodes-lynxprompt) | n8n community node for LynxPrompt AI configuration blueprints |
+| [homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | Homebrew tap for LynxPrompt CLI |
 
 ## License
 
