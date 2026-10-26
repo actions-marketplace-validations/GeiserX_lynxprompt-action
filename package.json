@@ -1,6 +1,6 @@
 {
   "name": "lynxprompt-action",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "GitHub Action to sync, validate, generate, and diff AI IDE configuration files with LynxPrompt",
   "main": "dist/index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "aider"
   ],
   "author": "GeiserX",
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "@actions/core": "^1.11.1",
     "@actions/github": "^6.0.0",
@@ -34,11 +34,11 @@
   "devDependencies": {
     "@types/node": "^20.19.43",
     "@vercel/ncc": "^0.45.0",
-    "@vitest/coverage-v8": "^4.1.11",
+    "@vitest/coverage-v8": "^4.1.12",
     "typescript": "^5.7.0",
     "vitest": "^4.1.4"
   },
   "overrides": {
-    "undici": "^6.28.0"
+    "undici": "^6.29.0"
   }
 }
